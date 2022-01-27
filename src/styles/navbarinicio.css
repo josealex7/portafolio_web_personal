@@ -10,11 +10,13 @@ body{
 background: rgb(18,102,143);
 background: linear-gradient(0deg, rgba(84,53,210,1) 100%,rgba(18,102,143,1) 0%);
     padding: 10px;
+    border-bottom: 2px solid white;
 }
 
 .NavbarSub{
     display: flex;
     color: white;
+    
 }
 
 .ulNavbar{

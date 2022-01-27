@@ -1,4 +1,4 @@
-import { TextField, Typography } from '@mui/material';
+import { Button, TextField, Typography } from '@mui/material';
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import{ init } from '@emailjs/browser';
@@ -37,14 +37,10 @@ const Contact = () => {
               rows={4}
               fullWidth
               />
-              <TextField fullWidth sx={{mt:2, mb:4}} type="submit" value="Enviar" variant='outlined' className='botonEnviar'/>
+              <Button fullWidth sx={{mt:2, mb:4}} type="submit" variant='outlined' className='botonEnviar'>
+                  Enviar
+              </Button>
             </form>
-          </div>
-          <div className='contenedorDatos'>
-            <Typography variant='h5' textAlign={'center'} sx={{mt:4,mb:2}}>Mis datos</Typography>
-            <Typography variant='h6'><label className='bold' sx={{mb:2}}>Nombre: </label>José Alexander Tavera Rojas</Typography>
-            <Typography variant='h6'><label className='bold' sx={{mb:2}}>Correo: </label>alevx197715@gmail.com</Typography>
-            <Typography variant='h6'><label className='bold' sx={{mb:2}}>Celular: </label>3196858588</Typography>        
           </div>
         </div>
       );

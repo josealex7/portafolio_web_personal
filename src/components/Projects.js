@@ -32,7 +32,7 @@ const Projects = () => {
                         </div>
                         <div className='contenedorDescripcion'>
                             <Typography variant='h4'>Amazonas</Typography>
-                            <Typography variant='body1' className='listadoFunciones'>Amazonas es una pagina web con un diseño
+                            <Typography variant='body1' className='listadoFunciones'>Amazonas es una página web con un diseño
                             inspirado en Amazon, las funciones implementadas fueron: 
                             <ul >
                                 <li>Registrarse y acceder con gmail o facebook</li>
@@ -50,7 +50,7 @@ const Projects = () => {
                     <div className='proyectoIndividual'>
                         <div className='contenedorDescripcion'>
                             <Typography variant='h4'>Block Master</Typography>
-                            <Typography variant='body1' className='listadoFunciones'>Block Master es una pagina web
+                            <Typography variant='body1' className='listadoFunciones'>Block Master es una página web
                             de peliculas, las funciones implementadas fueron: 
                             <ul >
                                 <li>Registrarse y acceder con gmail o usuario</li>
@@ -102,7 +102,7 @@ const Projects = () => {
                         </div>
                         <div className='contenedorDescripcion'>
                             <Typography variant='h4'>Adopción de Mascotas</Typography>
-                            <Typography variant='body1' className='listadoFunciones'>La pagina de adopción de 
+                            <Typography variant='body1' className='listadoFunciones'>La página de adopción de 
                             mascotas es una red social para conectar a los usuarios con las mascotas,
                             las funciones implementadas fueron: 
                             <ul >

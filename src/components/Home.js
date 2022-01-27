@@ -11,7 +11,7 @@ const home = () => {
                 <div>
                     <Typography variant='h3' sx={{mb:3}} className='descripcionPerfil bold'>
                         <label className='reducirTamanio'>
-                        Hola, soy Alexander Tavera encantado de conocerte
+                        Hola, soy Alexander Tavera
                         </label>
                     </Typography>
                     <Typography variant='h5' className='descripcionPerfil' sx={{mt:3}}>
@@ -26,8 +26,8 @@ const home = () => {
                     <div className='contenedorSkillTitulo'>
                         <Typography variant='h3' sx={{mb:2}} className='bold'>Mis Skills</Typography>
                         <Typography variant='h4'sx={{mb:2, mt:2}}>
-                            Estos son los lenguajes y tecnologías que manejo y 
-                            de los que me interesa seguir aprendiendo.
+                            Estos son los lenguajes y tecnologías que manejo, de los
+                            cuales me interesa seguir aprendiendo.
                         </Typography>
                     </div>
                     <div className='contedorSkillImagenes'>

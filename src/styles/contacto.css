@@ -13,11 +13,13 @@
     max-width: 600px;
     padding: 0px 20px;
     min-width: 200px;
-    margin-bottom: 10px;
+    margin-bottom: -20px;
 }
 
 .botonEnviar{
     color: white;
+    height: 50px;
+    font-size: 16px;
     font-weight: bold;
     background: rgb(18,102,143);
     background: linear-gradient(0deg, rgba(18,102,143,1) 0%, rgba(84,53,210,1) 100%);
@@ -26,14 +28,4 @@
 .contact-form{
     max-width: 540px;
     margin: auto;
-}
-
-.contenedorDatos{
-    max-width: 540px;
-    min-width: 200px;
-    border: 2px solid rgba(80, 80, 80, 0.637);
-    border-radius: 20px;
-    margin: auto;
-    padding: 20px 50px;
-    margin-bottom: -40px;
 }
