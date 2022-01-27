@@ -1,7 +1,7 @@
 # Alexander Tavera Portafolio
 Esta es mi App Web Personal donde se encuentra mi información profesional, skills, perfil y proyectos 
 
-link de despliegue: https://reloj-pomodoro-1xs45t7n6-josealex7.vercel.app/
+link de despliegue: https://portafolio-alexander-tavera.vercel.app/
 
 ![image](https://user-images.githubusercontent.com/89882027/151440823-129521e4-8209-45fb-ad69-c6b36a1d3323.png)
 
