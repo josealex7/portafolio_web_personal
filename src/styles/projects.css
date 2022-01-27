@@ -1,0 +1,125 @@
+.ContenedorProyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.tituloProyectos{
+    text-align: center;
+}
+
+.colorBlueFondo{
+    background: rgb(18,102,143);
+    background: linear-gradient(0deg, rgba(18,102,143,1) 0%, rgba(84,53,210,1) 100%);
+    color: white;
+}
+
+.proyectoIndividual{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.proyectoIndividualImg{
+    max-width: 600px;
+    min-width: 380px;
+    position: relative;
+    max-height: 280px;
+}
+
+.proyectoIndividualImg img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.contenedorBotonesImagenes{
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    height: 100%;
+    max-height: 277px;
+    opacity: 0;
+    transition-property: opacity, backgroud-color, left;
+    transition-duration: 0.5s, 0.5s;
+}
+
+.contenedorBotonesImagenes:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+.contenedorBotonesImagenesSub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    width: 200px;
+    height: 100%;
+    margin: auto;
+}
+
+.contenedorDescripcion{
+    width: 550px;
+}
+
+.listadoFunciones{
+    text-align: left;
+}
+
+.contenedorMensajeFinal{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.ir-A-GitHub{
+    padding-left: 10px;
+    color: rgb(44, 8, 78);
+    text-decoration: none;
+}
+
+.ir-A-GitHub:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 680px){
+    .proyectoIndividual{
+        padding: 30px 0px;
+    }
+
+    .proyectoIndividualImg{
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .contenedorBotonesImagenesSub{
+        margin: 10px auto;
+    }
+
+    .contenedorTituloFinal{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .proyectoIndividualImg img{
+        width: 95%;
+        object-fit: cover;
+    }
+
+    .contenedorBotonesImagenes{
+        width: 95%;
+        left: 10px;
+    }
+
+    .contenedorDescripcion{
+        min-width: 260px;
+        padding: 10px;
+    }
+}
+
+
+
